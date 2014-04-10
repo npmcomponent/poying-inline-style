@@ -89,8 +89,8 @@ proto.run = function (ctx) {
   var mw = this.middleware;
   var fn;
 
-  while (fn = mw.shift()) {
-    fn.call(ctx);
+  for (i = 0; len = mw.length; i < len; i += 1) {
+    mw.call(ctx);
   }
 
   return ctx;
