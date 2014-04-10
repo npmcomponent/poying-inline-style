@@ -108,7 +108,7 @@ proto.toString = function () {
         key: prop,
         value: style[prop]
       });
-      str.push(ctx.key + ': ' + ctx.value);
+      str.push(ctx.key + ': ' + String(ctx.value));
     }
   }
 
