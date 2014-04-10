@@ -1,0 +1,12 @@
+{
+  "name": "inline-style",
+  "repo": "poying/inline-style",
+  "version": "0.0.0",
+  "license": "MIT",
+  "keywords": [
+    "style"
+  ],
+  "scripts": [
+    "index.js"
+  ]
+}

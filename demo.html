@@ -1,0 +1,23 @@
+<html>
+<head>
+  <title>inline-style</title>
+</head>
+<body>
+  <button class="target" style="font-size:12px;color:red;margin:48px">inline-style</button>
+
+  <script src="build/build.js"></script>
+  <script>
+    var style = require('inline-style');
+    var button = document.querySelector('.target');
+
+    style = style(button);
+
+    style.set('color', '#f60');
+    style.set('font-size', '24px');
+
+    button.addEventListener('click', function () {
+      style.render();
+    });
+  </script>
+</body>
+</html>
