@@ -1,15 +1,9 @@
 {
-  "name": "inline-style",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Po-Ying Chen <poying.me@gmail.com> (陳柏穎)",
-  "license": "MIT",
-  "devDependencies": {
-    "component": "~1.0.0-rc5",
-    "http-server": "~0.6.1"
-  }
+  "name": "poying-inline-style",
+  "version": "0.0.4",
+  "keywords": [
+    "style"
+  ],
+  "dependencies": {},
+  "license": "MIT"
 }
