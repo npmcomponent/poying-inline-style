@@ -19,9 +19,9 @@ style.use(function () {
 });
 ```
 
-### style#get(plugin)
+### style#get(propName)
 
-### style#set(plugin)
+### style#set(propName, prop)
 
 ### style#render()
 
