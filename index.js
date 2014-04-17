@@ -37,7 +37,7 @@ proto.render = function () {
 };
 
 proto.parse = function (el) {
-  var str = el.getAttribute('style');
+  var str = el.getAttribute('style') || '';
   var state = 0;
   var len = str.length;
   var i, char_;
