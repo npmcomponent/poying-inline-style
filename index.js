@@ -90,7 +90,7 @@ proto.run = function (ctx) {
   var fn;
 
   for (i = 0, len = mw.length; i < len; i += 1) {
-    mw.call(ctx);
+    mw[i].call(ctx);
   }
 
   return ctx;
